@@ -1,0 +1,21 @@
+{
+  "name": "everland",
+  "version": "1.0.0",
+  "repository": "https://github.com/fin10/everland.git",
+  "author": "fin10 <fender64@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r @babel/register src/valet.ts"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/register": "^7.18.6",
+    "@tsconfig/recommended": "^1.0.1",
+    "typescript": "^4.7.4"
+  }
+}
