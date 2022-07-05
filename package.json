@@ -5,7 +5,9 @@
   "author": "fin10 <fender64@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node -r @babel/register src/valet.ts"
+    "prepare": "husky install",
+    "start": "node -r @babel/register src/valet.ts",
+    "lint": "yarn eslint --fix ."
   },
   "dependencies": {
     "axios": "^0.27.2"
@@ -21,6 +23,7 @@
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
     "prettier": "2.7.1",
     "typescript": "^4.7.4"
   }
