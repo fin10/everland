@@ -3,6 +3,11 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"],
   "compilerOptions": {
+    "target": "es6",
+    "declaration": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "sourceMap": true
   }
 }
